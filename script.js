@@ -6,8 +6,6 @@ const passOneEl = document.querySelector('.pass1');
 const passTwoEl = document.querySelector('.pass2');
 const btnPassword = document.querySelector('.btn-password')
 
-let charlenght = characters.length;
-console.log(getRandom())
  
 let passOne = [];
 let passTwo = [];
@@ -44,7 +42,5 @@ btnPassword.addEventListener("click",function(){
 });
 
 
-let password = passOne.join('')
-console.log(password)
 
 
